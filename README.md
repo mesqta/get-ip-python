@@ -1,18 +1,18 @@
 ## IP Address Retrieval Project
 
-This is a small Python project aimed at retrieving the IP address of a given host.
+This is a Python project designed to retrieve the IP address of a specified host.
 
 #### Features
 
-- **get_ip(target_host)**: A function that takes the name of a host as an argument and returns its IP address.
+- **get_ip(target_host)**: A function that takes the name of a host as an argument and returns its IP address. If an error occurs while obtaining the IP address, it prints an error message and returns `None`.
 
 #### Usage
-- To use this script, simply execute it with Python and provide the host name as an argument. For example:
+- To use this script, run it with Python and provide the host name when prompted. For example:
 
 ```python
-python main.py google.com
+python main.py
 ```
-This will print the corresponding IP address of the provided host.
+This will prompt you to enter the website's name to obtain its IP address.
 
 #### Requirements
 
@@ -28,4 +28,4 @@ This project was developed as part of an exercise for practicing Python programm
 
 ---
 
-![Exemplo](https://media.discordapp.net/attachments/1156008745529245777/1209368401466753124/image.png?ex=65e6ab17&is=65d43617&hm=b59fe5907e228b38c69a957d191780a0431f5c2ab703d445d78367d32fa7b7b0&=&format=webp&quality=lossless&width=430&height=467)
+![Exemplo](https://media.discordapp.net/attachments/1203740621949509652/1209377973136916510/image.png?ex=65e6b401&is=65d43f01&hm=5dc1a04fff4e0a310c5215122d375e7b5b4673a923d1dfd933c343626d782902&=&format=webp&quality=lossless&width=524&height=467)
